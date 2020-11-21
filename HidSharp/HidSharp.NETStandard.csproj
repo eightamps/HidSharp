@@ -8,6 +8,7 @@
     <RootNamespace>HidSharp</RootNamespace>
     <OutputPath>..\bin</OutputPath>
     <DocumentationFile>..\bin\netstandard2.0\HidSharp.XML</DocumentationFile>
+    <Platforms>AnyCPU;x86</Platforms>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
